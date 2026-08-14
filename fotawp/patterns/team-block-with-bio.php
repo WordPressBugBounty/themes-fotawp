@@ -16,19 +16,19 @@ $fotawp_images = array(
 <div class="wp-block-group has-primary-background-color has-background" style="padding-top:80px;padding-right:var(--wp--preset--spacing--50);padding-bottom:100px;padding-left:var(--wp--preset--spacing--50)"><!-- wp:columns -->
     <div class="wp-block-columns"><!-- wp:column -->
         <div class="wp-block-column"><!-- wp:heading {"textAlign":"left","level":1,"style":{"typography":{"fontStyle":"normal","fontWeight":"600","fontSize":"44px"}},"textColor":"foregound-alt"} -->
-            <h1 class="wp-block-heading has-text-align-left has-foregound-alt-color has-text-color" style="font-size:44px;font-style:normal;font-weight:600"><?php echo esc_html_e('Our Teams', 'fotawp') ?></h1>
+            <h1 class="wp-block-heading has-text-align-left has-foregound-alt-color has-text-color" style="font-size:44px;font-style:normal;font-weight:600"><?php esc_html_e('Our Teams', 'fotawp') ?></h1>
             <!-- /wp:heading -->
         </div>
         <!-- /wp:column -->
 
         <!-- wp:column -->
         <div class="wp-block-column"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|background-alt"}}}},"textColor":"background-alt"} -->
-            <p class="has-background-alt-color has-text-color has-link-color"><?php echo esc_html_e('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.', 'fotawp') ?></p>
+            <p class="has-background-alt-color has-text-color has-link-color"><?php esc_html_e('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.', 'fotawp') ?></p>
             <!-- /wp:paragraph -->
 
             <!-- wp:buttons -->
             <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"foregound-alt","textColor":"primary","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"className":"is-style-button-hover-secondary-bgcolor"} -->
-                <div class="wp-block-button is-style-button-hover-secondary-bgcolor"><a class="wp-block-button__link has-primary-color has-foregound-alt-background-color has-text-color has-background has-link-color wp-element-button"><?php echo esc_html_e('Meet All Members', 'fotawp') ?></a></div>
+                <div class="wp-block-button is-style-button-hover-secondary-bgcolor"><a class="wp-block-button__link has-primary-color has-foregound-alt-background-color has-text-color has-background has-link-color wp-element-button"><?php esc_html_e('Meet All Members', 'fotawp') ?></a></div>
                 <!-- /wp:button -->
             </div>
             <!-- /wp:buttons -->
@@ -49,11 +49,11 @@ $fotawp_images = array(
                 <!-- /wp:spacer -->
 
                 <!-- wp:heading {"textAlign":"center","level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
-                <h4 class="wp-block-heading has-text-align-center" style="font-style:normal;font-weight:500"><?php echo esc_html_e('John Doe', 'fotawp') ?></h4>
+                <h4 class="wp-block-heading has-text-align-center" style="font-style:normal;font-weight:500"><?php esc_html_e('John Doe', 'fotawp') ?></h4>
                 <!-- /wp:heading -->
 
                 <!-- wp:heading {"textAlign":"center","level":6,"style":{"color":{"text":"#7d7d7d"},"typography":{"fontStyle":"normal","fontWeight":"300"}},"fontSize":"small"} -->
-                <h6 class="wp-block-heading has-text-align-center has-text-color has-small-font-size" style="color:#7d7d7d;font-style:normal;font-weight:300"><?php echo esc_html_e('Software Engineer', 'fotawp') ?></h6>
+                <h6 class="wp-block-heading has-text-align-center has-text-color has-small-font-size" style="color:#7d7d7d;font-style:normal;font-weight:300"><?php esc_html_e('Software Engineer', 'fotawp') ?></h6>
                 <!-- /wp:heading -->
 
                 <!-- wp:social-links {"iconColor":"heading-color","iconColorValue":"#25133F","iconBackgroundColor":"background-alt","iconBackgroundColorValue":"#FBF9FE","align":"center","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20","left":"var:preset|spacing|20"},"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
@@ -66,7 +66,7 @@ $fotawp_images = array(
                 <!-- /wp:social-links -->
 
                 <!-- wp:paragraph {"align":"center","textColor":"sub-heading-color","fontSize":"small"} -->
-                <p class="has-text-align-center has-sub-heading-color-color has-text-color has-small-font-size"><?php echo esc_html_e('The placeholder text, beginning with the line&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 'fotawp') ?></p>
+                <p class="has-text-align-center has-sub-heading-color-color has-text-color has-small-font-size"><?php esc_html_e('The placeholder text, beginning with the line&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 'fotawp') ?></p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -84,11 +84,11 @@ $fotawp_images = array(
                 <!-- /wp:spacer -->
 
                 <!-- wp:heading {"textAlign":"center","level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
-                <h4 class="wp-block-heading has-text-align-center" style="font-style:normal;font-weight:500"><?php echo esc_html_e('Marcus Henry', 'fotawp') ?></h4>
+                <h4 class="wp-block-heading has-text-align-center" style="font-style:normal;font-weight:500"><?php esc_html_e('Marcus Henry', 'fotawp') ?></h4>
                 <!-- /wp:heading -->
 
                 <!-- wp:heading {"textAlign":"center","level":6,"style":{"color":{"text":"#7d7d7d"},"typography":{"fontStyle":"normal","fontWeight":"300"}},"fontSize":"small"} -->
-                <h6 class="wp-block-heading has-text-align-center has-text-color has-small-font-size" style="color:#7d7d7d;font-style:normal;font-weight:300"><?php echo esc_html_e('DevOps Engineer', 'fotawp') ?></h6>
+                <h6 class="wp-block-heading has-text-align-center has-text-color has-small-font-size" style="color:#7d7d7d;font-style:normal;font-weight:300"><?php esc_html_e('DevOps Engineer', 'fotawp') ?></h6>
                 <!-- /wp:heading -->
 
                 <!-- wp:social-links {"iconColor":"heading-color","iconColorValue":"#25133F","iconBackgroundColor":"background-alt","iconBackgroundColorValue":"#FBF9FE","align":"center","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20","left":"var:preset|spacing|20"},"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
@@ -101,7 +101,7 @@ $fotawp_images = array(
                 <!-- /wp:social-links -->
 
                 <!-- wp:paragraph {"align":"center","textColor":"sub-heading-color","fontSize":"small"} -->
-                <p class="has-text-align-center has-sub-heading-color-color has-text-color has-small-font-size"><?php echo esc_html_e('The placeholder text, beginning with the line&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 'fotawp') ?></p>
+                <p class="has-text-align-center has-sub-heading-color-color has-text-color has-small-font-size"><?php esc_html_e('The placeholder text, beginning with the line&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 'fotawp') ?></p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -119,11 +119,11 @@ $fotawp_images = array(
                 <!-- /wp:spacer -->
 
                 <!-- wp:heading {"textAlign":"center","level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
-                <h4 class="wp-block-heading has-text-align-center" style="font-style:normal;font-weight:500"><?php echo esc_html_e('Liyana Tobe', 'fotawp') ?></h4>
+                <h4 class="wp-block-heading has-text-align-center" style="font-style:normal;font-weight:500"><?php esc_html_e('Liyana Tobe', 'fotawp') ?></h4>
                 <!-- /wp:heading -->
 
                 <!-- wp:heading {"textAlign":"center","level":6,"style":{"color":{"text":"#7d7d7d"},"typography":{"fontStyle":"normal","fontWeight":"300"}},"fontSize":"small"} -->
-                <h6 class="wp-block-heading has-text-align-center has-text-color has-small-font-size" style="color:#7d7d7d;font-style:normal;font-weight:300"><?php echo esc_html_e('Software Engineer', 'fotawp') ?></h6>
+                <h6 class="wp-block-heading has-text-align-center has-text-color has-small-font-size" style="color:#7d7d7d;font-style:normal;font-weight:300"><?php esc_html_e('Software Engineer', 'fotawp') ?></h6>
                 <!-- /wp:heading -->
 
                 <!-- wp:social-links {"iconColor":"heading-color","iconColorValue":"#25133F","iconBackgroundColor":"background-alt","iconBackgroundColorValue":"#FBF9FE","align":"center","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20","left":"var:preset|spacing|20"},"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
@@ -136,7 +136,7 @@ $fotawp_images = array(
                 <!-- /wp:social-links -->
 
                 <!-- wp:paragraph {"align":"center","textColor":"sub-heading-color","fontSize":"small"} -->
-                <p class="has-text-align-center has-sub-heading-color-color has-text-color has-small-font-size"><?php echo esc_html_e('The placeholder text, beginning with the line&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 'fotawp') ?></p>
+                <p class="has-text-align-center has-sub-heading-color-color has-text-color has-small-font-size"><?php esc_html_e('The placeholder text, beginning with the line&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 'fotawp') ?></p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->

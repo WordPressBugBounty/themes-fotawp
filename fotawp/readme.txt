@@ -3,9 +3,9 @@
 Contributors: CozyThemes
 Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, e-commerce, full-site-editing, block-patterns, full-width-template, rtl-language-support, threaded-comments, translation-ready, block-styles, wide-blocks
 Requires at least: 5.9
-Tested up to: 6.6
-Requires PHP: 7.0
-Stable tag: 2.0.3
+Tested up to: 7.0
+Requires PHP: 7.4
+Stable tag: 2.0.6
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,6 +26,11 @@ FotaWP is a lightweight, block-based, multipurpose WordPress theme designed to b
 FotaWP includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 == Changelog ==
+= 2.0.6 - Aug 14, 2026 =
+* Fix: Border styles on patterns.
+* Fix: Pattern layouts.
+* Update: Admin dashboard UI.
+
 = 2.0.3 - Sept 18, 2024 =
 * Dashboard notice board  UI changed as WordPress guidelines.
 * Map iframe removed from patterns
@@ -125,7 +130,6 @@ FotaWP includes support for WooCommerce and for Infinite Scroll in Jetpack.
 * Bug fixed for WooCommerce Support for the theme
 * Improving WooCommerce Templates Layout
 
-
 = 1.2.2 - Sept 17, 2023 =
 * Additional homepage template patterns added
 * Category wise Patterns listed
@@ -192,7 +196,7 @@ License: GPL v2 or later
 Image for Screenshot banner image 2, https://pxhere.com
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/1653206
+Source: https://pxhere.com/en/photo/1695282
 
 Image for Screenshot banner image , https://pxhere.com
 License: CC0 1.0 Universal (CC0 1.0)
@@ -202,33 +206,37 @@ Source: https://stocksnap.io/photo/woman-business-AF3ULYHHIM
 Image for About us Section image, https://pxhere.com
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/1690294
+Source: https://pxhere.com/en/photo/1704958
 
 Image 1 for Process Step Section, https://pxhere.com
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/1560935
+Source: https://pxhere.com/en/photo/1709020
 
-Image 2 for Process Step Section, https://stocksnap.io/
+Image 2 for Process Step Section, https://pxhere.com/
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://stocksnap.io/photo/woman-business-JK1WUKX3VR
+Source: https://pxhere.com/en/photo/1680026
 
-Image 3 for Process Step Section, https://stocksnap.io/
+Image 3 for Process Step Section, https://pxhere.com/
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://stocksnap.io/photo/business-people-HXDODYZKFS
+Source: https://pxhere.com/en/photo/1724708
 
-Image for project 1, https://pxhere.com
+Image for portfolio 1, https://pxhere.com
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/1447827
+Source: https://pxhere.com/en/photo/1508425
 
-Image for project 2, https://pxhere.com
+Image for portfolio 2, https://pxhere.com
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/1452319
+Source: https://pxhere.com/en/photo/1680026
 
+Image for portfolio 3, https://pxhere.com
+License: CC0 1.0 Universal (CC0 1.0)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://pxhere.com/en/photo/1697520
 
 Image for testimonial 1, https://pxhere.com
 License: CC0 1.0 Universal (CC0 1.0)
@@ -285,50 +293,15 @@ Copyright 2021 The Albert Sans Project Authors
 License: http://scripts.sil.org/OFL
 Source: https://github.com/usted/Albert-Sans
 
-Font: DM Sans,
-Copyright 2014 The DM Sans Project Authors
-License: http://scripts.sil.org/OFL
-Source: https://github.com/googlefonts/dm-fonts
-
-Font: Hanken-Grotesk,
-Copyright 2021 The Hanken Grotesk Project Authors
-License: http://scripts.sil.org/OFL
-Source: https://github.com/marcologous/hanken-grotesk
-
 font: Inter,
 Copyright 2020 The Inter Project Authors
 License: http://scripts.sil.org/OFL
 Source: https://github.com/rsms/inter
 
-Font: Montserrat,
-Copyright 2011 The Montserrat Project Authors
-License: http://scripts.sil.org/OFL
-Source: https://github.com/JulietaUla/Montserrat
-
-Font: nunito,
-Copyright 2014 The Nunito Project Authors
-License: http://scripts.sil.org/OFL
-Source: https://github.com/googlefonts/nunito
-
-Font: Open Sans,
-Copyright 2020 The Open Sans Project Authors
-License: http://scripts.sil.org/OFL
-Source: https://github.com/googlefonts/opensans
-
 Font: Oswald,
 Copyright 2016 The Oswald Project Authors
 License: http://scripts.sil.org/OFL
 Source: https://github.com/googlefonts/OswaldFont
-
-Font: Outfit,
-Copyright 2021 The Outfit Project Authors
-License: http://scripts.sil.org/OFL
-Source: https://github.com/Outfitio/Outfit-Fonts
-
-Font: Playfair Display,
-Copyright 2017 The Playfair Display Project Authors
-License: http://scripts.sil.org/OFL
-Source: https://github.com/clauseggers/Playfair-Display
 
 Font: Quicksand,
 Copyright 2011 The Quicksand Project Authors
@@ -345,11 +318,6 @@ Copyright 2020 The Space Grotesk Project Authors
 License: http://scripts.sil.org/OFL
 Source: https://github.com/floriankarsten/space-grotesk
 
-Font: Lato,
-Copyright (c) 2010-2014 by tyPoland Lukasz Dziedzic (team@latofonts.com) with Reserved Font Name "Lato"
-License: http://scripts.sil.org/OFL
-Source: https://fonts.google.com/specimen/Lato
-
 Font: Allura,
 Copyright 2010 The Allura Project Authors (https://github.com/googlefonts/allura)
 License: http://scripts.sil.org/OFL
@@ -360,30 +328,10 @@ Copyright 2020 The Jost Project Authors (https://github.com/indestructible-type)
 License: http://scripts.sil.org/OFL
 Source: https://github.com/indestructible-type
 
-Font: Dancing Scripts,
-Copyright 2016 The Dancing Script Project Authors (https://github.com/googlefonts/DancingScript), with Reserved Font Name 'Dancing Script'.
-License: http://scripts.sil.org/OFL
-Source: https://github.com/googlefonts/DancingScript
-
-Font: Pacifico,
-Copyright 2018 The Pacifico Project Authors (https://github.com/googlefonts/Pacifico)
-License: http://scripts.sil.org/OFL
-Source: https://github.com/googlefonts/Pacifico
-
-Font: Raleway,
-Copyright 2010 The Raleway Project Authors (impallari@gmail.com), with Reserved Font Name "Raleway".
-License: http://scripts.sil.org/OFL
-Source: https://github.com/googlefonts/raleway
-
 Font: IBM Plex Serif,
 Copyright © 2017 IBM Corp. with Reserved Font Name "Plex"
 License: http://scripts.sil.org/OFL
 Source: https://github.com/googlefonts/plex
-
-Font: Roboto Condensed,
-Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)
-License: http://scripts.sil.org/OFL
-Source: https://github.com/googlefonts/roboto-classic
 
 Font: Syne,
 Copyright 2017 The Syne Project Authors (https://gitlab.com/bonjour-monde/fonderie/syne-typeface)

@@ -6,26 +6,22 @@
  * Categories: header
  */
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","right":"var:preset|spacing|40","bottom":"var:preset|spacing|50","left":"var:preset|spacing|40"}}},"gradient":"first-primary-gradient","layout":{"type":"constrained","contentSize":"1180px"}} -->
-<div class="wp-block-group has-first-primary-gradient-gradient-background has-background" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-  <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-    <div class="wp-block-group"><!-- wp:site-logo {"width":50,"style":{"color":{"duotone":"unset"}}} /-->
+<!-- wp:group {"metadata":{"patternName":"fotawp/header-minimal","name":"Header Minimal","categories":["header"]},"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","right":"var:preset|spacing|40","bottom":"var:preset|spacing|50","left":"var:preset|spacing|40"}}},"gradient":"first-primary-gradient","layout":{"type":"constrained","contentSize":"1180px"}} -->
+<div class="wp-block-group has-first-primary-gradient-gradient-background has-background" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+  <div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+    <div class="wp-block-group"><!-- wp:site-logo {"width":44,"shouldSyncIcon":false} /-->
 
-      <!-- wp:site-title {"style":{"typography":{"fontStyle":"normal","fontWeight":"700"},"elements":{"link":{"color":{"text":"var:preset|color|foregound-alt"},":hover":{"color":{"text":"var:preset|color|secondary"}}}}},"fontSize":"large"} /-->
+      <!-- wp:site-title {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foregound-alt"}}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"text-alter-color","fontSize":"large"} /-->
     </div>
     <!-- /wp:group -->
 
-    <!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"right"}} -->
-    <div class="wp-block-group"><!-- wp:navigation {"textColor":"foregound-alt","overlayBackgroundColor":"foregound-alt","overlayTextColor":"heading-color","className":"fotawp-navigation"} -->
-      <!-- wp:home-link {"label":"Home"} /-->
-
-      <!-- wp:page-list /-->
-      <!-- /wp:navigation -->
+    <!-- wp:group {"metadata":{"name":""},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"right"}} -->
+    <div class="wp-block-group"><!-- wp:navigation {"textColor":"foregound-alt","overlayBackgroundColor":"foregound-alt","overlayTextColor":"heading-color","metadata":{"ignoredHookedBlocks":["woocommerce/customer-account","woocommerce/mini-cart"]},"className":"fotawp-navigation"} /-->
 
       <!-- wp:group {"metadata":{"name":"Fotawp Search Modal"},"className":"fotawp-search-modal","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
       <div class="wp-block-group fotawp-search-modal"><!-- wp:buttons -->
         <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"transparent","textColor":"foregound-alt","className":"fotawp-search-button","style":{"spacing":{"padding":{"left":"0px","right":"0px","top":"0px","bottom":"0px"}},"elements":{"link":{"color":{"text":"var:preset|color|foregound-alt"}}}},"fontSize":"small"} -->
-          <div class="wp-block-button has-custom-font-size fotawp-search-button has-small-font-size"><a class="wp-block-button__link has-foregound-alt-color has-transparent-background-color has-text-color has-background has-link-color wp-element-button" style="padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px">Search</a></div>
+          <div class="wp-block-button fotawp-search-button"><a class="wp-block-button__link has-foregound-alt-color has-transparent-background-color has-text-color has-background has-link-color has-small-font-size has-custom-font-size wp-element-button" style="padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px">Search</a></div>
           <!-- /wp:button -->
         </div>
         <!-- /wp:buttons -->

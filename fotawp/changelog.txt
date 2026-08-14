@@ -1,0 +1,151 @@
+= 2.0.6 - Aug 14, 2026 =
+* Fix: Border styles on patterns.
+* Fix: Pattern layouts.
+* Update: Admin dashboard UI.
+
+= 2.0.3 - Sept 18, 2024 =
+* Dashboard notice board  UI changed as WordPress guidelines.
+* Map iframe removed from patterns
+
+= 2.0.2 - Sept 18, 2024 =
+* Dashboard notice board  UI changed as WordPress guidelines.
+* Map iframe removed from patterns
+
+= 2.0.1 - Sept 10, 2024 =
+* Dashboard notice board  UI changed as WordPress guidelines.
+
+= 2.0.0 - Aug 27, 2024 =
+* New Templated Added for Default Homepage Layout
+* Overall Theme Iayout Improved
+
+= 1.4.2 - Aug 07, 2024 =
+* Update:Minor security improvement patch
+
+= 1.4.1 - July 25, 2024 =
+* Tested up to 6.6
+
+= 1.4.0 - July 16, 2024 =
+* More Homepage Templates added for free version
+
+= 1.3.15 - July 12, 2024 =
+* More Google fonts option added to the theme.
+
+= 1.3.14 - July 10, 2024 =
+* Demo improvement
+* Minor Layout improvement
+
+= 1.3.13 - June 28, 2024 =
+* Improving header search form layout
+* Adding style variation for Button
+* Adding Style variation for List
+* Adding Style Varition for Post Meta
+
+= 1.3.12 - June 28, 2024 =
+* Improving header search form layout
+* Adding style variation for Button
+* Adding Style variation for List
+* Adding Style Varition for Post Meta
+
+= 1.3.11 - May 24, 2024 =
+* Improving header search form layout
+
+= 1.3.10 - April 17, 2024 =
+* Homepage template new version added as pattern
+
+= 1.3.9 - April 06, 2024 =
+* Tested up to 6.5
+
+= 1.3.8 - March 18, 2024 =
+* Page Template double header/footer Layout issue fixed
+
+= 1.3.7 - March 18, 2024 =
+* Theme Layout Improvement
+* Animation on Scroll Features Added
+
+= 1.3.6 - March 02, 2024 =
+* Minor menu layout fixed for mobile
+
+= 1.3.5 - Feb 02, 2024 =
+* Layout and Patterns imporovement for default front page
+* Single and Page Template layout improvement
+* WooCommerce Template Improvement
+
+= 1.3.4 - Jan 22, 2024 =
+* Minor Improving patterns Layout
+ 
+= 1.3.3 - Jan 06, 2024 =
+* improving dashboard and plugin notice
+
+= 1.3.2 - Jan 03, 2024 =
+* Adding Recommended Plugin notice 
+
+= 1.3.1 - Dec 28, 2023 =
+* Patterns Layout Imporvement
+* Adding extra patterns layout for about us/ banner/ portfolio and more..
+
+= 1.3.0 - Dec 22, 2023 =
+* Minor layout improvement
+
+= 1.2.10 - Nov 27, 2023 =
+* Dismissible notice of dashboard bug fixed 
+
+= 1.2.9 - Nov 20, 2023 =
+* Minor Translation issue fixed
+
+= 1.2.8 - Nov 12, 2023 =
+* Tested Upto 6.4
+
+= 1.2.5 - Oct 30, 2023 =
+* Adding Scroll to Top Button/Pattern
+
+= 1.2.3 - Oct 7, 2023 =
+* Bug fixed for WooCommerce Support for the theme
+* Improving WooCommerce Templates Layout
+
+= 1.2.2 - Sept 17, 2023 =
+* Additional homepage template patterns added
+* Category wise Patterns listed
+
+= 1.2.1 - Aug 29, 2023 =
+* Improvement of Patterns and theme description
+
+= 1.2.0 - Aug 19, 2023 =
+* Improvemnt of theme styles
+* Mobile menu layout improvement
+
+= 1.0.9 - Aug 17, 2023 =
+* Minor bug fixed for global style switching mode
+
+= 1.0.8 - Aug 16, 2023 =
+* Tested Upto 6.3
+* Minor bug for latest version fixed
+
+= 1.0.7 - Aug 4, 2023 = 
+* Adding 2 more patterns for banner/hero section
+* Adding 1 pattern for latest product section
+* Removed duplicated footer patterns
+* Existing patterns improved
+
+= 1.0.6 - July 27, 2023 = 
+* New fonts option added for the theme
+* Documentation link added to the dashboard
+
+
+= 1.0.5 - July 24, 2023 = 
+* Improving dashbaord for providing simple guideline for theme/site setup
+
+= 1.0.4 - July 18, 2023 = 
+* Layout and Responsive improvement for the theme
+
+= 1.0.3 - July 14, 2023 = 
+* Adding patterns for pricing table, banner section, contact section and counter section 
+
+= 1.0.2 - July  06, 2023
+* Adding new patterns layout for team, services, about and footer section
+* Removed unwanted file and css issue fixed
+* Updating screenshot as suggested by review team
+
+= 1.0.1 - July  04, 2023
+
+= 1.0.0 - July 03, 2023 =
+* Initial release

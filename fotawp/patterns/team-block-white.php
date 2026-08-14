@@ -16,19 +16,19 @@ $fotawp_images = array(
 <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--50)"><!-- wp:columns -->
     <div class="wp-block-columns"><!-- wp:column -->
         <div class="wp-block-column"><!-- wp:heading {"textAlign":"left","style":{"typography":{"fontSize":"44px","fontStyle":"normal","fontWeight":"600"}}} -->
-            <h2 class="wp-block-heading has-text-align-left" style="font-size:44px;font-style:normal;font-weight:600"><?php echo esc_html_e('Meet the Team', 'fotawp') ?></h2>
+            <h2 class="wp-block-heading has-text-align-left" style="font-size:44px;font-style:normal;font-weight:600"><?php esc_html_e('Meet the Team', 'fotawp') ?></h2>
             <!-- /wp:heading -->
         </div>
         <!-- /wp:column -->
 
         <!-- wp:column -->
         <div class="wp-block-column"><!-- wp:paragraph -->
-            <p><?php echo esc_html_e('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.', 'fotawp') ?></p>
+            <p><?php esc_html_e('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.', 'fotawp') ?></p>
             <!-- /wp:paragraph -->
 
             <!-- wp:buttons -->
             <div class="wp-block-buttons"><!-- wp:button -->
-                <div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php echo esc_html_e('Meet All Members', 'fotawp') ?></a></div>
+                <div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php esc_html_e('Meet All Members', 'fotawp') ?></a></div>
                 <!-- /wp:button -->
             </div>
             <!-- /wp:buttons -->
@@ -43,11 +43,11 @@ $fotawp_images = array(
             <div class="wp-block-group"><!-- wp:cover {"url":"<?php echo esc_url($fotawp_images[0]) ?>","id":139,"dimRatio":30,"minHeight":460,"contentPosition":"bottom left","layout":{"type":"constrained"}} -->
                 <div class="wp-block-cover has-custom-content-position is-position-bottom-left" style="min-height:460px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-30 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-139" alt="" src="<?php echo esc_url($fotawp_images[0]) ?>" data-object-fit="cover" />
                     <div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"left","level":4,"style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}}} -->
-                        <h4 class="wp-block-heading has-text-align-left" style="margin-top:var(--wp--preset--spacing--60)"><?php echo esc_html_e('John Doe', 'fotawp') ?></h4>
+                        <h4 class="wp-block-heading has-text-align-left" style="margin-top:var(--wp--preset--spacing--60)"><?php esc_html_e('John Doe', 'fotawp') ?></h4>
                         <!-- /wp:heading -->
 
                         <!-- wp:paragraph {"align":"left","style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
-                        <p class="has-text-align-left" style="margin-top:var(--wp--preset--spacing--30)"><?php echo esc_html_e('Founder', 'fotawp') ?></p>
+                        <p class="has-text-align-left" style="margin-top:var(--wp--preset--spacing--30)"><?php esc_html_e('Founder', 'fotawp') ?></p>
                         <!-- /wp:paragraph -->
 
                         <!-- wp:social-links {"iconColor":"foregound-alt","iconColorValue":"#FEFEFE","align":"center","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20","left":"var:preset|spacing|20"},"margin":{"top":"var:preset|spacing|40"}}},"className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"left"}} -->
@@ -71,11 +71,11 @@ $fotawp_images = array(
             <div class="wp-block-group"><!-- wp:cover {"url":"<?php echo esc_url($fotawp_images[1]) ?>","id":144,"dimRatio":30,"minHeight":460,"contentPosition":"bottom left","layout":{"type":"constrained"}} -->
                 <div class="wp-block-cover has-custom-content-position is-position-bottom-left" style="min-height:460px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-30 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-144" alt="" src="<?php echo esc_url($fotawp_images[1]) ?>" data-object-fit="cover" />
                     <div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"left","level":4,"style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}}} -->
-                        <h4 class="wp-block-heading has-text-align-left" style="margin-top:var(--wp--preset--spacing--60)"><?php echo esc_html_e('Robert Marcus', 'fotawp') ?></h4>
+                        <h4 class="wp-block-heading has-text-align-left" style="margin-top:var(--wp--preset--spacing--60)"><?php esc_html_e('Robert Marcus', 'fotawp') ?></h4>
                         <!-- /wp:heading -->
 
                         <!-- wp:paragraph {"align":"left","style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
-                        <p class="has-text-align-left" style="margin-top:var(--wp--preset--spacing--30)"><?php echo esc_html_e('Entrepreneur', 'fotawp') ?></p>
+                        <p class="has-text-align-left" style="margin-top:var(--wp--preset--spacing--30)"><?php esc_html_e('Entrepreneur', 'fotawp') ?></p>
                         <!-- /wp:paragraph -->
 
                         <!-- wp:social-links {"iconColor":"foregound-alt","iconColorValue":"#FEFEFE","align":"center","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20","left":"var:preset|spacing|20"},"margin":{"top":"var:preset|spacing|40"}}},"className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"left"}} -->
@@ -99,11 +99,11 @@ $fotawp_images = array(
             <div class="wp-block-group"><!-- wp:cover {"url":"<?php echo esc_url($fotawp_images[2]) ?>","id":145,"dimRatio":40,"minHeight":460,"contentPosition":"bottom left","layout":{"type":"constrained"}} -->
                 <div class="wp-block-cover has-custom-content-position is-position-bottom-left" style="min-height:460px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-40 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-145" alt="" src="<?php echo esc_url($fotawp_images[2]) ?>" data-object-fit="cover" />
                     <div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"left","level":4,"style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}}} -->
-                        <h4 class="wp-block-heading has-text-align-left" style="margin-top:var(--wp--preset--spacing--60)"><?php echo esc_html_e('Kristina Dole', 'fotawp') ?></h4>
+                        <h4 class="wp-block-heading has-text-align-left" style="margin-top:var(--wp--preset--spacing--60)"><?php esc_html_e('Kristina Dole', 'fotawp') ?></h4>
                         <!-- /wp:heading -->
 
                         <!-- wp:paragraph {"align":"left","style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
-                        <p class="has-text-align-left" style="margin-top:var(--wp--preset--spacing--30)"><?php echo esc_html_e('Project Manager', 'fotawp') ?></p>
+                        <p class="has-text-align-left" style="margin-top:var(--wp--preset--spacing--30)"><?php esc_html_e('Project Manager', 'fotawp') ?></p>
                         <!-- /wp:paragraph -->
 
                         <!-- wp:social-links {"iconColor":"foregound-alt","iconColorValue":"#FEFEFE","align":"center","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20","left":"var:preset|spacing|20"},"margin":{"top":"var:preset|spacing|40"}}},"className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"left"}} -->
