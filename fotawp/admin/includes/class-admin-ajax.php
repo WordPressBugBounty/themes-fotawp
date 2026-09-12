@@ -31,7 +31,7 @@ class FotaWP_Admin_Ajax {
 	public function dismiss_welcome_notice() {
 		check_admin_referer( 'fotawp_welcome_nonce', 'nonce' );
 
-		update_option( 'saaslauncher_dismissed_custom_notice', 1 );
+		update_option( 'fotawp_dismissed_custom_notice', 1 );
 
 		wp_send_json_success();
 	}
@@ -74,7 +74,7 @@ class FotaWP_Admin_Ajax {
 			}
 
 			if ( $this->is_plugin_installed( $plugin_slug . '/' . $plugin_file ) ) {
-				activate_plugin( $plugin_slug . '/' . $plugin_file );
+				activate_plugin( $plugin_slug . '/' . $plugin_file, '', false, true );
 				continue;
 			}
 
@@ -95,7 +95,7 @@ class FotaWP_Admin_Ajax {
 
 			if ( $install ) {
 				// Activate the plugin.
-				$activate = activate_plugin( $plugin_slug . '/' . $plugin_file );
+				$activate = activate_plugin( $plugin_slug . '/' . $plugin_file, '', false, true );
 
 				// Check if activation is successful.
 				if ( is_wp_error( $activate ) ) {

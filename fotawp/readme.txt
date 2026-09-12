@@ -2,10 +2,10 @@
 
 Contributors: CozyThemes
 Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, e-commerce, full-site-editing, block-patterns, full-width-template, rtl-language-support, threaded-comments, translation-ready, block-styles, wide-blocks
-Requires at least: 5.9
-Tested up to: 7.0
+Requires at least: 6.0
+Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.0.6
+Stable tag: 2.0.7
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,6 +26,9 @@ FotaWP is a lightweight, block-based, multipurpose WordPress theme designed to b
 FotaWP includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 == Changelog ==
+= 2.0.7 - Sept 11, 2026 =
+* Tested up to 7.1
+
 = 2.0.6 - Aug 14, 2026 =
 * Fix: Border styles on patterns.
 * Fix: Pattern layouts.
