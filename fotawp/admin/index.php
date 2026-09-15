@@ -167,7 +167,7 @@ if (! defined('ABSPATH')) {
 						<div class="fotawp-spacer sm"></div>
 
 						<button class="btn btn-secondary is-full-width">
-							<a href="https://cozythemes.com/pricing-and-plans/#free-vs-pro" target="_blank" rel="noopener nofollow">
+							<a href="https://cozythemes.com/fotawp/#fotawp-free-vs-pro" target="_blank" rel="noopener nofollow">
 								<?php esc_html_e('Check Full Free vs Pro Comparison →', 'fotawp'); ?>
 							</a>
 						</button>

@@ -5,7 +5,7 @@ Author: CozyThemes
 Author URI: https://cozythemes.com/
 Description: FotaWP is a lightweight, block-based, multipurpose WordPress theme designed to be responsive, SEO-friendly, and optimized for speed. It seamlessly integrates with both Full Site Editing (FSE) and your favorite page builder, Elementor. With over 130+ pre-built ready-to-use patterns, more than 40+ advanced Elementor widgets, and 28+ pre-built demos that can be imported with just one click. It is fully compatible with your favorite page builders and plugins, including Elementor, Gutenberg, Yoast SEO, RankMath, Contact Form, Jetpack, WooCommerce, and more. With FotaWP's exceptional support and compatibility with both FSE and Elementor, users can take full control over their site and achieve stunning websites as per their design and requirements, even with zero coding knowledge. Users can redesign and reconstruct their site from scratch with the help of our professionally crafted patterns and demos. With its wide range of features and customization options, FotaWP is suitable for various niches such as agencies, small businesses, corporate entities, startups, home services, HVAC services, education and e-learning platforms, health and fitness centers, insurance services, e-commerce shops and stores (WooCommerce), product catalogue, entertainment and media platforms, magazines, news outlets, bloggers, vloggers, writers, authors, automobile businesses, travel agencies, real estate firms, online courses and learning management systems (LMS), digital marketing agencies, SEO agencies, web agencies, consulting firms, technology companies, cybersecurity experts, public speakers, social media influencers, freelancers, portfolios and galleries, gadgets and technology enthusiasts, charities and nonprofit organizations, restaurants and food cafes, hotels and resorts, colleges, schools, pet care services, gardening and agriculture ventures, photography studios, art and creative studios, and various other professional services. Whether you're a developer or just starting out, FotaWP provides step-by-step documentation, video tutorials, and top-notch support to assist you on your journey. Discover more about FotaWP at https://www.cozythemes.com/fotawp/.
 Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, e-commerce, full-site-editing, block-patterns, full-width-template, rtl-language-support, threaded-comments, translation-ready, block-styles, wide-blocks
-Version: 2.0.7
+Version: 2.0.8
 Requires at least: 6.0
 Tested up to: 7.1
 Requires PHP: 7.4
@@ -162,18 +162,24 @@ a.comment-reply-link {
 .wc-block-cart-item__quantity .wc-block-cart-item__remove-link {
   color: #fe7a7e !important;
 }
-.wc-block-cart-item__total-price-and-sale-badge-wrapper .wc-block-formatted-money-amount.wc-block-components-formatted-money-amount.wc-block-components-product-price__value {
+.wc-block-cart-item__total-price-and-sale-badge-wrapper
+  .wc-block-formatted-money-amount.wc-block-components-formatted-money-amount.wc-block-components-product-price__value {
   font-size: 18px;
   color: var(--wp--preset--color--primary);
 }
-.wp-block-contact-form-7-contact-form-selector.fotawp-footer-newsletter .wpcf7-form {
+.wp-block-contact-form-7-contact-form-selector.fotawp-footer-newsletter
+  .wpcf7-form {
   position: relative;
 }
-.wp-block-contact-form-7-contact-form-selector.fotawp-footer-newsletter .wpcf7-form .wpcf7-form-control-wrap {
+.wp-block-contact-form-7-contact-form-selector.fotawp-footer-newsletter
+  .wpcf7-form
+  .wpcf7-form-control-wrap {
   padding: 0 !important;
   width: 65% !important;
 }
-.wp-block-contact-form-7-contact-form-selector.fotawp-footer-newsletter .wpcf7-form input.wpcf7-form-control.wpcf7-text.wpcf7-email {
+.wp-block-contact-form-7-contact-form-selector.fotawp-footer-newsletter
+  .wpcf7-form
+  input.wpcf7-form-control.wpcf7-text.wpcf7-email {
   width: 100%;
   line-height: 33px;
   padding: 15px 20px 12px;
@@ -182,7 +188,9 @@ a.comment-reply-link {
   border: 0;
   margin: 0;
 }
-.wp-block-contact-form-7-contact-form-selector.fotawp-footer-newsletter .wpcf7-form .wpcf7-form-control.wpcf7-submit {
+.wp-block-contact-form-7-contact-form-selector.fotawp-footer-newsletter
+  .wpcf7-form
+  .wpcf7-form-control.wpcf7-submit {
   width: 35% !important;
   background: var(--wp--preset--color--secondary);
   height: 60px;
@@ -194,14 +202,20 @@ a.comment-reply-link {
   right: 0;
   top: 0;
 }
-.wp-block-contact-form-7-contact-form-selector.fotawp-footer-newsletter .wpcf7-form .wpcf7-form-control.wpcf7-submit:hover {
+.wp-block-contact-form-7-contact-form-selector.fotawp-footer-newsletter
+  .wpcf7-form
+  .wpcf7-form-control.wpcf7-submit:hover {
   opacity: 0.89;
 }
 
-.wp-block-contact-form-7-contact-form-selector.fotawp-footer-newsletter .wpcf7-form .wpcf7-not-valid-tip {
+.wp-block-contact-form-7-contact-form-selector.fotawp-footer-newsletter
+  .wpcf7-form
+  .wpcf7-not-valid-tip {
   margin-top: 20px;
 }
-.wp-block-contact-form-7-contact-form-selector.fotawp-footer-newsletter .wpcf7-form .wpcf7-response-output {
+.wp-block-contact-form-7-contact-form-selector.fotawp-footer-newsletter
+  .wpcf7-form
+  .wpcf7-response-output {
   margin: -25px 0 20px;
 }
 .wp-block-contact-form-7-contact-form-selector.fotawp-footer-newsletter {
@@ -238,7 +252,8 @@ p a,
   display: none;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.089);
 }
-.wp-block-button.fotawp-scrollto-top .wp-block-button__link.wp-element-button:after {
+.wp-block-button.fotawp-scrollto-top
+  .wp-block-button__link.wp-element-button:after {
   content: "";
   width: 50px;
   height: 50px;
@@ -254,7 +269,8 @@ p a,
   left: 0;
   top: 0;
 }
-.wp-block-button.fotawp-scrollto-top .wp-block-button__link.wp-element-button:hover:after {
+.wp-block-button.fotawp-scrollto-top
+  .wp-block-button__link.wp-element-button:hover:after {
   background-color: var(--wp--preset--color--primary) !important;
 }
 .fotawp-contact-form .wpcf7-form-control.wpcf7-text,
@@ -302,7 +318,8 @@ p a,
   -moz-transform: scale(1.027);
 }
 .wp-block-cover.fotawp-cover-hover:hover img.wp-block-cover__image-background,
-.wp-block-cover.fotawp-cover-hover-dark:hover img.wp-block-cover__image-background {
+.wp-block-cover.fotawp-cover-hover-dark:hover
+  img.wp-block-cover__image-background {
   transform: scale(1.035);
 }
 .wp-block-cover.fotawp-cover-hover .wp-block-cover__inner-container,
@@ -369,11 +386,13 @@ p a,
 .woocommerce div.product .woocommerce-tabs ul.tabs {
   padding: 0;
 }
-.wc-block-components-product-image .wc-block-components-product-sale-badge--align-right {
+.wc-block-components-product-image
+  .wc-block-components-product-sale-badge--align-right {
   right: 10px;
   top: 10px;
 }
-.wc-block-components-product-image .wc-block-components-product-sale-badge--align-left {
+.wc-block-components-product-image
+  .wc-block-components-product-sale-badge--align-left {
   left: 10px;
   top: 10px;
 }
@@ -531,19 +550,29 @@ button.fotawp-search-close:before {
   height: 18px;
   mask-size: 100%;
 }
-.fotawp-search-modal .fotawp-search-button .wp-element-button.has-foreground-color:after {
+.fotawp-search-modal
+  .fotawp-search-button
+  .wp-element-button.has-foreground-color:after {
   background: var(--wp--preset--color--foreground);
 }
-.fotawp-search-modal .fotawp-search-button .wp-element-button.has-primary-color:after {
+.fotawp-search-modal
+  .fotawp-search-button
+  .wp-element-button.has-primary-color:after {
   background: var(--wp--preset--color--primary);
 }
-.fotawp-search-modal .fotawp-search-button .wp-element-button.has-secondary-color:after {
+.fotawp-search-modal
+  .fotawp-search-button
+  .wp-element-button.has-secondary-color:after {
   background: var(--wp--preset--color--secondary);
 }
-.fotawp-search-modal .fotawp-search-button .wp-element-button.has-tertiary-color:after {
+.fotawp-search-modal
+  .fotawp-search-button
+  .wp-element-button.has-tertiary-color:after {
   background: var(--wp--preset--color--tertiary);
 }
-.fotawp-search-modal .fotawp-search-button .wp-element-button.has-heading-color-color:after {
+.fotawp-search-modal
+  .fotawp-search-button
+  .wp-element-button.has-heading-color-color:after {
   background: var(--wp--preset--color--heading-color);
 }
 button.fotawp-search-close:before {
@@ -553,67 +582,80 @@ button.fotawp-search-close:before {
 button.fotawp-search-close:hover:before {
   background: var(--wp--preset--color--foregound-alt);
 }
-.wp-block-contact-form-7-contact-form-selector.fotawp-newsletter-2 input.wpcf7-form-control.wpcf7-email {
+.wp-block-contact-form-7-contact-form-selector.fotawp-newsletter-2
+  input.wpcf7-form-control.wpcf7-email {
   border-radius: 0;
   height: 60px;
   background: transparent;
   border: 1px solid #c4c7ce;
 }
-.wp-block-contact-form-7-contact-form-selector.fotawp-newsletter-2 input.wpcf7-form-control.wpcf7-submit {
+.wp-block-contact-form-7-contact-form-selector.fotawp-newsletter-2
+  input.wpcf7-form-control.wpcf7-submit {
   width: 100%;
   height: 60px;
   border-radius: 0;
   margin-top: 15px;
 }
-.wp-block-contact-form-7-contact-form-selector.fotawp-request-form input.wpcf7-form-control.wpcf7-submit {
+.wp-block-contact-form-7-contact-form-selector.fotawp-request-form
+  input.wpcf7-form-control.wpcf7-submit {
   background: var(--wp--preset--color--background);
   width: 100%;
   border-radius: 4px;
   border: 0;
   height: 54px;
 }
-.wp-block-contact-form-7-contact-form-selector.fotawp-request-form input.wpcf7-form-control.wpcf7-submit:hover {
+.wp-block-contact-form-7-contact-form-selector.fotawp-request-form
+  input.wpcf7-form-control.wpcf7-submit:hover {
   background: var(--wp--preset--color--background-alt);
 }
-.wp-block-contact-form-7-contact-form-selector.fotawp-request-form input.wpcf7-form-control {
+.wp-block-contact-form-7-contact-form-selector.fotawp-request-form
+  input.wpcf7-form-control {
   border-radius: 4px;
   border: 0;
   min-height: 50px;
 }
-.wp-block-contact-form-7-contact-form-selector.fotawp-request-form textarea.wpcf7-form-control {
+.wp-block-contact-form-7-contact-form-selector.fotawp-request-form
+  textarea.wpcf7-form-control {
   border: 0;
   border-radius: 4px;
   height: 130px;
 }
-.wp-block-contact-form-7-contact-form-selector.newsletter-style-center input.wpcf7-form-control.wpcf7-email {
+.wp-block-contact-form-7-contact-form-selector.newsletter-style-center
+  input.wpcf7-form-control.wpcf7-email {
   text-align: center;
   text-transform: uppercase;
   border: 0;
   border-radius: 0;
   border-bottom: 1px solid;
 }
-.wp-block-contact-form-7-contact-form-selector.newsletter-style-center input.wpcf7-form-control.wpcf7-submit {
+.wp-block-contact-form-7-contact-form-selector.newsletter-style-center
+  input.wpcf7-form-control.wpcf7-submit {
   border-radius: 0;
   margin-top: 20px;
   margin-right: -24px;
 }
-.wp-block-contact-form-7-contact-form-selector.newsletter-style-center form.wpcf7-form {
+.wp-block-contact-form-7-contact-form-selector.newsletter-style-center
+  form.wpcf7-form {
   text-align: center;
 }
-.wp-block-contact-form-7-contact-form-selector.newsletter-style-center .wpcf7-spinner {
+.wp-block-contact-form-7-contact-form-selector.newsletter-style-center
+  .wpcf7-spinner {
   margin: 0;
 }
-.wp-block-contact-form-7-contact-form-selector.fotawp-footer-newsletter-2 span.wpcf7-form-control-wrap {
+.wp-block-contact-form-7-contact-form-selector.fotawp-footer-newsletter-2
+  span.wpcf7-form-control-wrap {
   width: 65%;
   float: left;
 }
-.wp-block-contact-form-7-contact-form-selector.fotawp-footer-newsletter-2 input.wpcf7-form-control.wpcf7-email {
+.wp-block-contact-form-7-contact-form-selector.fotawp-footer-newsletter-2
+  input.wpcf7-form-control.wpcf7-email {
   border-radius: 0;
   height: 54px;
   background: transparent;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
-.wp-block-contact-form-7-contact-form-selector.fotawp-footer-newsletter-2 input.wpcf7-form-control.wpcf7-submit {
+.wp-block-contact-form-7-contact-form-selector.fotawp-footer-newsletter-2
+  input.wpcf7-form-control.wpcf7-submit {
   width: 34%;
   height: 54px;
   border-radius: 0 !important;
@@ -622,30 +664,38 @@ button.fotawp-search-close:hover:before {
   float: left;
   margin-top: 10px;
 }
-.wp-block-contact-form-7-contact-form-selector.freelancer-enquiry-form .freelance-form-half {
+.wp-block-contact-form-7-contact-form-selector.freelancer-enquiry-form
+  .freelance-form-half {
   width: 48%;
   float: left;
 }
-.wp-block-contact-form-7-contact-form-selector.freelancer-enquiry-form .freelance-form-half.right {
+.wp-block-contact-form-7-contact-form-selector.freelancer-enquiry-form
+  .freelance-form-half.right {
   margin-left: 4%;
 }
-.wp-block-contact-form-7-contact-form-selector.freelancer-enquiry-form .freelance-form-half input.wpcf7-form-control {
+.wp-block-contact-form-7-contact-form-selector.freelancer-enquiry-form
+  .freelance-form-half
+  input.wpcf7-form-control {
   border: 0;
   border-radius: 0;
   border-bottom: 2px solid #c7c7c7;
   padding: 15px 0;
 }
-.wp-block-contact-form-7-contact-form-selector.freelancer-enquiry-form .freelance-form-half p {
+.wp-block-contact-form-7-contact-form-selector.freelancer-enquiry-form
+  .freelance-form-half
+  p {
   margin: 10px 0;
 }
-.wp-block-contact-form-7-contact-form-selector.freelancer-enquiry-form textarea.wpcf7-form-control.wpcf7-textarea {
+.wp-block-contact-form-7-contact-form-selector.freelancer-enquiry-form
+  textarea.wpcf7-form-control.wpcf7-textarea {
   border-radius: 0;
   border: 0;
   border-bottom: 2px solid #c7c7c7;
   padding: 0;
   height: 120px;
 }
-.wp-block-contact-form-7-contact-form-selector.freelancer-enquiry-form input.wpcf7-form-control.wpcf7-submit {
+.wp-block-contact-form-7-contact-form-selector.freelancer-enquiry-form
+  input.wpcf7-form-control.wpcf7-submit {
   border-radius: 50px;
   margin-top: 20px;
 }
@@ -692,10 +742,12 @@ button.fotawp-search-close:hover:before {
 .wp-block-cover.fotawp-cover-alter:hover p {
   color: #fff !important;
 }
-.wp-block-contact-form-7-contact-form-selector.fotawp-newsletter-2.button-2 input.wpcf7-form-control.wpcf7-submit {
+.wp-block-contact-form-7-contact-form-selector.fotawp-newsletter-2.button-2
+  input.wpcf7-form-control.wpcf7-submit {
   background: #6487e0;
 }
-.wp-block-contact-form-7-contact-form-selector.fotawp-newsletter-2.button-2 input.wpcf7-form-control.wpcf7-submit:hover {
+.wp-block-contact-form-7-contact-form-selector.fotawp-newsletter-2.button-2
+  input.wpcf7-form-control.wpcf7-submit:hover {
   background-color: var(--wp--preset--color--secondary);
 }
 
@@ -723,12 +775,14 @@ button.fotawp-search-close:hover:before {
 .wp-block-group.fota-overlay-content {
   position: relative;
 }
-.wp-block-contact-form-7-contact-form-selector.fotawp-appointment-form input.wpcf7-form-control.wpcf7-text {
+.wp-block-contact-form-7-contact-form-selector.fotawp-appointment-form
+  input.wpcf7-form-control.wpcf7-text {
   height: 54px;
   padding: 0 20px;
   border: 1px solid #dcdcdc;
 }
-.wp-block-contact-form-7-contact-form-selector.fotawp-appointment-form input.wpcf7-form-control.wpcf7-date {
+.wp-block-contact-form-7-contact-form-selector.fotawp-appointment-form
+  input.wpcf7-form-control.wpcf7-date {
   height: 54px;
   width: 100%;
   border: 1px solid #dcdcdc;
@@ -737,34 +791,41 @@ button.fotawp-search-close:hover:before {
   box-sizing: border-box;
   margin-top: 10px;
 }
-.wp-block-contact-form-7-contact-form-selector.fotawp-appointment-form select.wpcf7-form-control {
+.wp-block-contact-form-7-contact-form-selector.fotawp-appointment-form
+  select.wpcf7-form-control {
   height: 54px;
 }
-.wp-block-contact-form-7-contact-form-selector.fotawp-appointment-form input.wpcf7-form-control.wpcf7-submit {
+.wp-block-contact-form-7-contact-form-selector.fotawp-appointment-form
+  input.wpcf7-form-control.wpcf7-submit {
   width: 100%;
   height: 54px;
   border-radius: 5px;
   border: 0;
   margin-top: -10px;
 }
-.wp-block-contact-form-7-contact-form-selector.fotawp-appointment-form textarea.wpcf7-form-control.wpcf7-textarea {
+.wp-block-contact-form-7-contact-form-selector.fotawp-appointment-form
+  textarea.wpcf7-form-control.wpcf7-textarea {
   height: 110px;
   border-radius: 5px;
 }
 .wp-block-contact-form-7-contact-form-selector.fotawp-appointment-form {
   margin-top: -7px;
 }
-.wp-block-contact-form-7-contact-form-selector.hvac-quote-form input.wpcf7-form-control.wpcf7-text,
-.wp-block-contact-form-7-contact-form-selector.hvac-quote-form textarea.wpcf7-form-control {
+.wp-block-contact-form-7-contact-form-selector.hvac-quote-form
+  input.wpcf7-form-control.wpcf7-text,
+.wp-block-contact-form-7-contact-form-selector.hvac-quote-form
+  textarea.wpcf7-form-control {
   background: #f8f8f8;
   border: 0;
   border-radius: 0;
   height: 54px;
 }
-.wp-block-contact-form-7-contact-form-selector.hvac-quote-form textarea.wpcf7-form-control {
+.wp-block-contact-form-7-contact-form-selector.hvac-quote-form
+  textarea.wpcf7-form-control {
   height: 120px;
 }
-.wp-block-contact-form-7-contact-form-selector.hvac-quote-form input.wpcf7-form-control.wpcf7-submit {
+.wp-block-contact-form-7-contact-form-selector.hvac-quote-form
+  input.wpcf7-form-control.wpcf7-submit {
   width: 100%;
   border-radius: 0;
   height: 54px;
@@ -783,10 +844,16 @@ button.fotawp-search-close:hover:before {
   background: var(--wp--preset--color--secondary);
   color: #fff !important;
 }
-nav.fotawp-post-pagination.wp-block-query-pagination .wp-block-query-pagination-numbers a,
-nav.fotawp-post-pagination.wp-block-query-pagination .wp-block-query-pagination-numbers span.page-numbers.current,
-nav.fotawp-post-pagination.wp-block-query-pagination a.wp-block-query-pagination-next,
-nav.fotawp-post-pagination.wp-block-query-pagination a.wp-block-query-pagination-previous {
+nav.fotawp-post-pagination.wp-block-query-pagination
+  .wp-block-query-pagination-numbers
+  a,
+nav.fotawp-post-pagination.wp-block-query-pagination
+  .wp-block-query-pagination-numbers
+  span.page-numbers.current,
+nav.fotawp-post-pagination.wp-block-query-pagination
+  a.wp-block-query-pagination-next,
+nav.fotawp-post-pagination.wp-block-query-pagination
+  a.wp-block-query-pagination-previous {
   border: 1px solid;
   padding: 4px 13px;
   font-size: 20px;
@@ -794,11 +861,15 @@ nav.fotawp-post-pagination.wp-block-query-pagination a.wp-block-query-pagination
 nav.fotawp-post-pagination.wp-block-query-pagination {
   grid-gap: 0;
 }
-nav.fotawp-post-pagination.wp-block-query-pagination > .wp-block-query-pagination-next,
-nav.fotawp-post-pagination.wp-block-query-pagination > .wp-block-query-pagination-previous {
+nav.fotawp-post-pagination.wp-block-query-pagination
+  > .wp-block-query-pagination-next,
+nav.fotawp-post-pagination.wp-block-query-pagination
+  > .wp-block-query-pagination-previous {
   padding: 3px 13px 4px !important;
 }
-nav.fotawp-post-pagination.wp-block-query-pagination .wp-block-query-pagination-numbers span.page-numbers.current {
+nav.fotawp-post-pagination.wp-block-query-pagination
+  .wp-block-query-pagination-numbers
+  span.page-numbers.current {
   background: var(--wp--preset--color--primary);
   color: #fff !important;
   padding: 5px 13px !important;
@@ -819,30 +890,38 @@ nav.fotawp-post-pagination.wp-block-query-pagination .wp-block-query-pagination-
   opacity: 1;
   margin-bottom: unset;
 }
-.wp-block-cover.fotawp-portfolio-box:hover img.wp-block-cover__image-background {
+.wp-block-cover.fotawp-portfolio-box:hover
+  img.wp-block-cover__image-background {
   transform: scale(1.1);
 }
-.wp-block-contact-form-7-contact-form-selector.fotahome-contact-form input.wpcf7-form-control,
-.wp-block-contact-form-7-contact-form-selector.fotahome-contact-form textarea.wpcf7-form-control {
+.wp-block-contact-form-7-contact-form-selector.fotahome-contact-form
+  input.wpcf7-form-control,
+.wp-block-contact-form-7-contact-form-selector.fotahome-contact-form
+  textarea.wpcf7-form-control {
   border-radius: 0;
   padding: 16px 0;
   border: 0;
   transition: all ease 0.23s;
   border-bottom: 1px solid var(--wp--preset--color--border-color);
 }
-.wp-block-contact-form-7-contact-form-selector.fotahome-contact-form textarea.wpcf7-form-control {
+.wp-block-contact-form-7-contact-form-selector.fotahome-contact-form
+  textarea.wpcf7-form-control {
   height: 120px;
 }
-.wp-block-contact-form-7-contact-form-selector.fotahome-contact-form input.wpcf7-form-control.wpcf7-submit {
+.wp-block-contact-form-7-contact-form-selector.fotahome-contact-form
+  input.wpcf7-form-control.wpcf7-submit {
   padding: 20px 30px;
   border-radius: 60px;
   margin-top: 15px;
 }
-.wp-block-contact-form-7-contact-form-selector.fotahome-contact-form ::placeholder {
+.wp-block-contact-form-7-contact-form-selector.fotahome-contact-form
+  ::placeholder {
   color: var(--wp--preset--color--heading-color);
 }
-.wp-block-contact-form-7-contact-form-selector.fotahome-contact-form input.wpcf7-form-control:focus,
-.wp-block-contact-form-7-contact-form-selector.fotahome-contact-form textarea.wpcf7-form-control:focus {
+.wp-block-contact-form-7-contact-form-selector.fotahome-contact-form
+  input.wpcf7-form-control:focus,
+.wp-block-contact-form-7-contact-form-selector.fotahome-contact-form
+  textarea.wpcf7-form-control:focus {
   padding: 16px;
 }
 a.wp-block-button__link.has-foregound-alt-color.has-primary-background-color:hover,
